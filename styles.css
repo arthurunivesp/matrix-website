@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000; /* Cor de fundo preto */
+}
+
+.container {
+    width: 1366px;
+    height: 768px;
+    background-color: #000000; /* Cor de fundo preto */
+    position: relative;
+    overflow: hidden;
+}
+
+.byte {
+    position: absolute;
+    font-family: monospace;
+    font-size: 20px;
+    color: #00ff00; /* Cor verde */
+    line-height: 1; /* Ajuste o espaçamento entre as linhas */
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* Cor branca */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
